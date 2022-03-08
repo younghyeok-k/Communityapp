@@ -1,4 +1,4 @@
 # Communityapp
 
-### Linux
-* [Linux basic command](https://github.com/younghyeok-k/TIL/blob/main/Linux/Linux-basic-command.md)
+### Project
+* [week1](https://github.com/younghyeok-k/Communityapp/edit/main/Review/week1.md)

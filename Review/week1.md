@@ -1,8 +1,8 @@
 # *프로젝트 Week1*
   - *앱이름: 커뮤니티앱 (전자기기)*
   - *개발환경 :Android 스튜디오 Bumblebee (2021.1.1) Canary 11*
-  - *언어 : Kotlin *  
-  - *서버 및 데이터베이스 : Firebase  *
+  - *언어 : Kotlin*  
+  - *서버 및 데이터베이스 : Firebase*
 
 
 ## *만들어볼 기능*

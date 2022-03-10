@@ -52,7 +52,7 @@ activity_login.xml
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_margin="20dp"
-        <mark>android:background="@drawable/background_radius"</mark>
+            android:background="@drawable/background_radius"
             android:text="로그인하기"
             android:textColor="@color/white" />
 ```

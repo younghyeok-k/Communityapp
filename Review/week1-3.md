@@ -15,10 +15,12 @@ Activity 파일
  ```
   private lateinit var binding: ActivityLoginBinding
   binding=DataBindingUtil.setContentView(this,R.layout.activity_login)
-  
+  // setContentView(R.layout.activity_main)
  ```
+ 
+### 원래 기존방식  
 --------------------------------------
-### 원래 기존방식 
+
 ```
     val add=findViewById<Button>(R.id.loginbtn)
 ```
@@ -26,7 +28,7 @@ Activity 파일
 계속해서 findViewById 를 써찾아야했다
 
 ### Binding 사용했을때 
-
+--------------------------------------
 findViewById<Button>(R.id.loginbtn) 를 사용할필요없이   
   
   
@@ -40,5 +42,25 @@ findViewById<Button>(R.id.loginbtn) 를 사용할필요없이
 --------------------------------------
 
 signInWithEmailAndPassword 메서드를 사용하여 이메일 주소와 비밀번호를 가져와 유효성을 검사한 후 사용자를 로그인시키는 새 signIn 메서드를 만들이어햐나다
+ 
+ ```
+ auth.signInWithEmailAndPassword(email, password)
+        .addOnCompleteListener(this) { task ->
+            if (task.isSuccessful) {
+                // Sign in success, update UI with the signed-in user's information
+                Log.d(TAG, "signInWithEmail:success")
+                val user = auth.currentUser
+                updateUI(user)
+            } else {
+                // If sign in fails, display a message to the user.
+                Log.w(TAG, "signInWithEmail:failure", task.exception)
+                Toast.makeText(baseContext, "Authentication failed.",
+                        Toast.LENGTH_SHORT).show()
+                updateUI(null)
+            }
+        }
+ ```
+ 
+
   
   

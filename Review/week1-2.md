@@ -150,7 +150,7 @@ auth.createUserWithEmailAndPassword(email, password)
 
 ```
 
- intent.flags=Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP
+ intent.flags=Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
 ```
 남아있던 기존 액티비티를 다날리는방법이다.
 

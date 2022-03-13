@@ -36,6 +36,10 @@ findViewById<Button>(R.id.loginbtn) 를 사용할필요없이
 ![image](https://user-images.githubusercontent.com/97229292/158057121-85048b21-9e3d-433f-a1fa-2a2d0735d65d.png)
   
   이런식으로 사용이가능하다   
+ 
+ Fragment.kt 에서 사용할때는 문법이 다르다 
+ ![image](https://user-images.githubusercontent.com/97229292/158066137-ed96cc13-da7b-4f3d-878e-48379987e2fc.png)
+
   
   
 ## 기존 사용자 로그인

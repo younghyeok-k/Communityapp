@@ -130,9 +130,8 @@ auth.createUserWithEmailAndPassword(email, password)
 
 ---------------------------------------
 ## 적용해보았을때
+![image](https://user-images.githubusercontent.com/97229292/158054984-0c0ae8c9-7cc3-460b-b617-d3414bfea5a7.png)
 
-
-![image](https://user-images.githubusercontent.com/97229292/158054078-a3024a50-1429-4c55-8e5b-642553fe17b9.png)
 
 ![image](https://user-images.githubusercontent.com/97229292/158054101-95f2f58e-309a-4828-9db4-9f2c53c380f9.png)
 

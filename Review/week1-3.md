@@ -41,7 +41,8 @@ findViewById<Button>(R.id.loginbtn) 를 사용할필요없이
 ## 기존 사용자 로그인
 --------------------------------------
 
-signInWithEmailAndPassword 메서드를 사용하여 이메일 주소와 비밀번호를 가져와 유효성을 검사한 후 사용자를 로그인시키는 새 signIn 메서드를 만들이어햐나다
+signInWithEmailAndPassword 메서드를 사용하여    
+ 이메일 주소와 비밀번호를 가져와 유효성을 검사한 후 사용자를 로그인시키는 새 signIn 메서드를 만들이어한다
  
  ```
  auth.signInWithEmailAndPassword(email, password)
@@ -62,5 +63,24 @@ signInWithEmailAndPassword 메서드를 사용하여 이메일 주소와 비밀�
  ```
  
 
-  
+## Android에서 익명으로 Firebase에 로그인
+ 
+ ------------------------------------------
+로그인한 사용자의 linkWithCredential 메서드에 AuthCredential 객체를 전달합니다.
+ 
+ ```
+ auth.currentUser!!.linkWithCredential(credential)
+        .addOnCompleteListener(this) { task ->
+            if (task.isSuccessful) {
+                Log.d(TAG, "linkWithCredential:success")
+                val user = task.result?.user
+                updateUI(user)
+            } else {
+                Log.w(TAG, "linkWithCredential:failure", task.exception)
+                Toast.makeText(baseContext, "Authentication failed.",
+                        Toast.LENGTH_SHORT).show()
+                updateUI(null)
+            }
+        }
+ ```
   

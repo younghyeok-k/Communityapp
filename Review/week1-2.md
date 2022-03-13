@@ -144,7 +144,7 @@ auth.createUserWithEmailAndPassword(email, password)
 ![image](https://user-images.githubusercontent.com/97229292/158054682-f84f42fc-f508-4abe-9c47-9d5d73b9ddad.png)
 
 
-  ↓↓↓↓
+  ↓↓↓↓   
 ![image](https://user-images.githubusercontent.com/97229292/158057699-e6fef355-a672-49e5-bf4f-5282131a3f97.png)
 
 

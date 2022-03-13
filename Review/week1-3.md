@@ -84,3 +84,23 @@ signInWithEmailAndPassword 메서드를 사용하여
         }
  ```
   
+ 
+ ## User로그인 확인방법
+ -------------------------------
+ User 가 로그인 되어있다가 나갔다와도 로그인 상태를 유지시킴
+ 
+![image](https://user-images.githubusercontent.com/97229292/158060723-f18524d4-d2e0-4cf5-abd6-d7f932f8e271.png)
+ 
+ 
+ 
+ ## Android Navigation
+ -------------------------------------------
+ 
+ ```
+ 
+  val nav_version = "2.4.1"
+  implementation("androidx.navigation:navigation-fragment-ktx:$nav_version")
+  implementation("androidx.navigation:navigation-ui-ktx:$nav_version")
+ 
+ ```
+

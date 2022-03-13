@@ -17,7 +17,7 @@ Activity 파일
   binding=DataBindingUtil.setContentView(this,R.layout.activity_login)
   
  ```
- 
+--------------------------------------
 ### 원래 기존방식 
 ```
     val add=findViewById<Button>(R.id.loginbtn)

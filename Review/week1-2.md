@@ -145,7 +145,7 @@ auth.createUserWithEmailAndPassword(email, password)
 ![image](https://user-images.githubusercontent.com/97229292/158054682-f84f42fc-f508-4abe-9c47-9d5d73b9ddad.png)
 
 
-여기서 
+  ↓↓↓↓
 ![image](https://user-images.githubusercontent.com/97229292/158054697-c3bdb66c-664a-4dd0-827f-a85f420f9e64.png)
 
 
@@ -153,7 +153,7 @@ auth.createUserWithEmailAndPassword(email, password)
 
  intent.flags=Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP
 ```
-남아있더 기존 액티비티를 다날리는방법이다.
+남아있던 기존 액티비티를 다날리는방법이다.
 
 
 

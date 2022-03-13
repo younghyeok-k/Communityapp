@@ -112,7 +112,7 @@ signInWithEmailAndPassword 메서드를 사용하여
  ##  Android LinearLayout split smae size
  -------------
 프레그먼트로 아이콘을 하단 바에 정렬하려고 했는데   
-같은 사이즈로 정렬이 하기 어려워 찾아봤더니
+같은 사이즈로 정렬이 하기 어려워 찾아봤더니   
  ![image](https://user-images.githubusercontent.com/97229292/158065629-119c58bd-d4d3-49bb-8d0a-1988c4848a74.png)
  
  

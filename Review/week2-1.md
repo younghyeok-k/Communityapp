@@ -82,6 +82,24 @@ getInstance()를 사용하여 데이터베이스의 인스턴스를 검색하고
 ----------------------
 
 ![image](https://user-images.githubusercontent.com/97229292/158833958-e17c1afb-f06b-49e6-b9cc-5e8a6c3443ac.png)
+![image](https://user-images.githubusercontent.com/97229292/158834614-2b3b5a51-afef-4bf2-81be-045dd49146b5.png)
+
+## 확인위해 잠시 데이터들을 넣어준다
+
+![image](https://user-images.githubusercontent.com/97229292/158834765-f3113dd9-aa3b-489d-a466-dc805216c953.png)
+
+## 각 아이콘마다 맞춰서 넣기위해 카테고리를 나뉜다
+![image](https://user-images.githubusercontent.com/97229292/158835156-87a5cbe7-14e0-4175-bf60-2c492275dec0.png)
+
+![image](https://user-images.githubusercontent.com/97229292/158835249-c3a2e391-94f1-43fe-8777-2ae2fe055d20.png)
+![image](https://user-images.githubusercontent.com/97229292/158835387-444b0507-2d43-4d32-856d-e097e190b41d.png)
+## 카테고리 1   
+![image](https://user-images.githubusercontent.com/97229292/158835877-7678a298-55ca-46ab-a02e-28825ab0d01f.png)
+## 카테고리 2
+![image](https://user-images.githubusercontent.com/97229292/158836032-a0803284-c868-41ed-8ef8-2d059ab739f6.png)
+
+
+
 
 
 

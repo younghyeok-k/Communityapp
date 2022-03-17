@@ -121,10 +121,10 @@ signInWithEmailAndPassword 메서드를 사용하여
  ```
  를 하나씩 다적용하면 사이즈에 맞게 정렬된다
  
- ![image](https://user-images.githubusercontent.com/97229292/158065660-43729845-4a72-42be-b025-5d9b928374d2.png)
+ ![image](https://user-images.githubusercontent.com/97229292/158065660-43729845-4a72-42be-b025-5d9b928374d2.png)    
 
 
- ![image](https://user-images.githubusercontent.com/97229292/158065699-f067cf3f-e8de-413c-bd3f-f05159359f1e.png)
+![image](https://user-images.githubusercontent.com/97229292/158732504-877b05b4-a37d-45d4-a692-0a74fac841f0.png)
 
  
  

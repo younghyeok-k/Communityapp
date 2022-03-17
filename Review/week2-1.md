@@ -27,3 +27,26 @@
 
 
 ## 이런방식으로 데이터모델을 넘길생각이다.
+```
+android glide (외부에서 이미지 가져오는 방법)
+
+```
+repositories {
+  google()
+  mavenCentral()
+}
+
+dependencies {
+  implementation 'com.github.bumptech.glide:glide:4.13.0'
+  annotationProcessor 'com.github.bumptech.glide:compiler:4.13.0'
+}
+```
+
+AndroidManifest.xml
+
+<uses-permission android:name="android.permission.Internet"/>
+
+외부링크 타고드가는 방법
+
+RESTful API 및 WebSocket에 대한 이
+```

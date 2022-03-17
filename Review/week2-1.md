@@ -69,7 +69,6 @@ https://github.com/bumptech/glide
 
 ![image](https://user-images.githubusercontent.com/97229292/158824522-b1f78f66-c701-4059-9694-475fd3de50c9.png)
 
-ㄴㅇㄴㅇ
 
 ```
 AndroidManifest.xml
@@ -77,7 +76,3 @@ AndroidManifest.xml
 <uses-permission android:name="android.permission.Internet"/> -> 추가
 ```
 
-외부링크 타고드가는 방법
-
-RESTful API 및 WebSocket에 대한 이
-```

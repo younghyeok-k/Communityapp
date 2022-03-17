@@ -43,7 +43,22 @@ RecyclerView 는 이미지가 클릭처리를 따로 만들어줘야한다.
 
 ![image](https://user-images.githubusercontent.com/97229292/158823156-05bd7c62-5ccf-48d9-8346-28fbd1f9ea48.png)
 
-클릭했을때 ContentshowActivity 로 넘어가게 만든것이다.
+클릭했을때 ContentshowActivity 로 넘어가게 만든것이다.   
+   
+# Glide(이미지 로딩 라이브러리)
+------------------------------------------
+https://github.com/bumptech/glide
+
+![image](https://user-images.githubusercontent.com/97229292/158824522-b1f78f66-c701-4059-9694-475fd3de50c9.png)
+
+
+```
+AndroidManifest.xml
+
+<uses-permission android:name="android.permission.Internet"/> -> 추가
+```
+![image](https://user-images.githubusercontent.com/97229292/158826229-9a527073-76c0-4941-a31b-5c0d2b98f616.png)
+
 
 
 #Realtime database 이용방법
@@ -63,19 +78,10 @@ getInstance()를 사용하여 데이터베이스의 인스턴스를 검색하고
 ![image](https://user-images.githubusercontent.com/97229292/158811844-84cdbb47-2d43-49c9-9d87-46209f93ebec.png)
 
 
-# Glide(이미지 로딩 라이브러리)
-------------------------------------------
-https://github.com/bumptech/glide
+## Database 이미지 테스트
+----------------------
 
-![image](https://user-images.githubusercontent.com/97229292/158824522-b1f78f66-c701-4059-9694-475fd3de50c9.png)
-
-
-```
-AndroidManifest.xml
-
-<uses-permission android:name="android.permission.Internet"/> -> 추가
-```
-![image](https://user-images.githubusercontent.com/97229292/158826229-9a527073-76c0-4941-a31b-5c0d2b98f616.png)
+![image](https://user-images.githubusercontent.com/97229292/158833958-e17c1afb-f06b-49e6-b9cc-5e8a6c3443ac.png)
 
 
 

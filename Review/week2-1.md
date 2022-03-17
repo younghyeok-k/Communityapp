@@ -75,4 +75,7 @@ AndroidManifest.xml
 
 <uses-permission android:name="android.permission.Internet"/> -> 추가
 ```
+![image](https://user-images.githubusercontent.com/97229292/158826229-9a527073-76c0-4941-a31b-5c0d2b98f616.png)
+
+![image](https://user-images.githubusercontent.com/97229292/158826233-2e618a49-c858-46f9-bc5c-890831d65545.png)
 

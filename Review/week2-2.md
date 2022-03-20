@@ -39,8 +39,9 @@ realtimeDatabase 안에있는 저기 uid 값을 사용자마다 북마크를 누
       
       
 -----------------------------------------
+```
 삭제할때 하나만 삭제되고 그다음 클릭했을때 삭제가 먹지않는 버그가 발생했다
-
+```
 ![image](https://user-images.githubusercontent.com/97229292/159154252-8abb1d70-4b0d-4ac0-90c4-621a4a218820.png)
 
 
@@ -49,11 +50,14 @@ realtimeDatabase 안에있는 저기 uid 값을 사용자마다 북마크를 누
 그래서 한번더 북마크를 클릭해서 로그를 확인해보았더니
 ```
 ![image](https://user-images.githubusercontent.com/97229292/159154303-0e33b257-a6b8-4dd6-8b59-7280122f3e1c.png)
-
+```
 이상하게 기존에 있던 데이터에서 쌓여있는거를 확인했다
 그래서 북마크 데이터가 변경될때
+```
 ![image](https://user-images.githubusercontent.com/97229292/159154357-6b3389d4-68fa-4b13-b55f-730c6d4b1fa4.png)
-이부부분이 실행되는데 이부분에서 bookmakrIdlist.clear() 해줘야 쌓이지 않고 잘적용되는거를 확인할수가 있었다
+```
+이부분이 실행되는데 이부분에서 bookmakrIdlist.clear() 해줘야 쌓이지 않고 잘적용되는거를 확인할수가 있었다
+```
 ![image](https://user-images.githubusercontent.com/97229292/159154416-ec0e0e38-df57-4c16-b56b-6ba16036bfbc.png)
 
 

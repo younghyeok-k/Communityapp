@@ -16,3 +16,15 @@
 ### 3)전체 컨텐츠 중에서 ,사용자가 북마크한 정보만 보여주기
 
 ![image](https://user-images.githubusercontent.com/97229292/159161545-4091e0d7-9702-4e72-adb0-e4d55dc13edf.png)
+
+
+```
+자신이 북마크한 콘텐츠를 다시 bookmarkFragment 에서 삭제하려고할때 
+bookmarkIdlist 에서는 원활하게 삭제되는데
+
+화면상으로 레이아웃에서 기존에 bookmarkIdlist 가 남아있는데 
+이거를 해결해야한다 ㅈㄴ 어렵다 
+찾아보는중 ------,,
+
+
+```

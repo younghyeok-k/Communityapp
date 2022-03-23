@@ -32,7 +32,7 @@
 # 카테코리별 이미지 바인딩 ( [2주차-1](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week2-1.md) )
 ---------------------------------------
 
-### 서버에서 이미지를 불러와서 이미지 바인딩 확인!
+### 서버에서 이미지를 불러와서 이미지 바인딩 확인
 
 ![카테고리이미지바인딩](https://user-images.githubusercontent.com/97229292/159738251-1480bcc7-3dec-4c87-85fc-f9561e5ee6dc.gif)
 

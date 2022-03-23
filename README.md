@@ -1,6 +1,10 @@
 # Communityapp
 
 ### Project
+
+| 주차 |ddd  | 
+|---------|---------|
+| ls   | 디렉터리 내용의 목록을 표시  | 
 * [week1](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week1.md)
 * [week1-1](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week1-1.md)
 * [week1-2](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week1-2.md)

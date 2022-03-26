@@ -11,8 +11,7 @@
 | [2주차-2](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week2-2.md)  | 북마크 추가/삭제 만들기  | 
 | [2주차-3](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week2-3.md)   | 북마크 탭 사용자 삭제 만들기  | 
 |  [1,2 주차 정리](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week2.md)   | 중간  정리  | 
-|  [3주차-1](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week3-1.md)   | 게시판 만들기/ Retrofit2  | 
-
+|  [3주차-1](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week3-1.md)   | 탭삭제하기 2|
 
 
 

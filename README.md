@@ -13,6 +13,7 @@
 |  [1,2 주차 정리](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week2.md)   | 중간  정리  | 
 |  [3주차-1](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week3-1.md)   | 탭삭제하기 2|
 |  [3주차-2](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week3-2.md)   |게시판 만들기 (글쓰기)|
+|  [3주차-3](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week3-3.md)   |게시판 만들기 (글읽어오기)|
 
 
 

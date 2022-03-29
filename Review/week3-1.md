@@ -15,3 +15,7 @@ https://maivve.tistory.com/35
 https://yunaaaas.tistory.com/57
 
 2일째 하는중
+
+remove
+-------------------
+https://stackoverflow.com/questions/31367599/how-to-update-recyclerview-adapter-data

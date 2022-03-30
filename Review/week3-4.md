@@ -64,7 +64,41 @@ val key=FBRef.boardRef.push().key.toString()
 
 ![image](https://user-images.githubusercontent.com/97229292/160852796-e216b6f5-5213-4ae3-98ff-e79d6d170025.png)
 
+```
+이미지 업로드가 안돼서 찾아봤더니 보안규칙이 잠겨있었다
+규칙을 수정했다
+
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /{allPaths=**} {
+      allow read, write: if
+       request.time < timestamp.date(2022, 5, 16);
+    }
+  }
+}
+
+```
+
+
+![image](https://user-images.githubusercontent.com/97229292/160858949-9cf2dc62-91e7-487e-a032-ae9d5f414d5c.png)
+
+
+
 
  
-            
+## insideActivity 에서 이미지 추가
+-----------------------------------
+### FirebaseUI로 이미지 다운로드
+```
+
+FirebaseUI는 단순하고 맞춤설정 가능하고 프로덕션 환경에서 즉시 사용할 수 있는 기본 모바일 바인딩을 제공하며, 이 바인딩을 사용하면 상용구 코드를 제거하고 Google의 권장사항을 도입할 수 있습니다. Glide와 통합되는 FirebaseUI를 사용하면 Cloud Storage의 이미지를 빠르고 손쉽게 다운로드하여 캐시에 저장하고 표시할 수 있습니다.
+```
+![image](https://user-images.githubusercontent.com/97229292/160860733-8d0447cd-854e-4d24-9022-e3dec2f16ec4.png)
+
+
+![image](https://user-images.githubusercontent.com/97229292/160860985-35b2b42a-9007-4c26-bce1-3d6ebd0c389a.png)
+
+![게시판글쓰기test3](https://user-images.githubusercontent.com/97229292/160867397-5140bdb8-84c0-4c3d-bbf6-b1548f5efb97.gif)
+
 

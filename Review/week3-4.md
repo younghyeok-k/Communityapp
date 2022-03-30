@@ -56,7 +56,7 @@ putBytes()는 byte[]를 취하고 UploadTask를 반환하며 이 반환 객체�
 val key=FBRef.boardRef.push().key.toString()
 값으로 키값을 받아아와서 push() 에서 child(key) 값을 바꾸면된다
 
-``  
+```  
 
 ![image](https://user-images.githubusercontent.com/97229292/160852662-f273c4ee-e51d-4891-8671-cbf0850f64ec.png)
 

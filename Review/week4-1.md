@@ -14,4 +14,5 @@
 
 
 ## 게시글  삭제 test
-![게시판글쓰기test4](https://user-images.githubusercontent.com/97229292/161027820-5c6fec32-6c7a-4c51-a84b-e09ca4426bde.gif)
+
+![게시판글쓰기test4](https://user-images.githubusercontent.com/97229292/161028907-83b7e365-214f-4f59-8176-7dba19ce9943.gif)

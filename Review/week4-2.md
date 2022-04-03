@@ -12,21 +12,21 @@ Drawer가 나타나지 않은 주 화면에서 버튼 이벤트 등으로 Drawer
 
 ```
 
-1)  implementation 추가
+### 1)  implementation 추가
 ```
 implementation 'androidx.legacy:legacy-support-v4:1.0.0' // DrawerLayout
 implementation 'com.google.android.material:material:1.0.0' // NavigationView
 
 ```
 
-2) navi_item 만들기
+### 2) navi_item 만들기
 
 ![image](https://user-images.githubusercontent.com/97229292/161433045-015c8c05-26fa-4f44-af59-4e0b824ba234.png)
 
-3) onNavigationItemSeleted 
+### 3) onNavigationItemSeleted 
 클릭시 이벤트 처리
 ![image](https://user-images.githubusercontent.com/97229292/161433117-9f11908e-98b4-4de7-96c1-658aeade6b6c.png)
 
-4) 클릭 이벤트 연결
+### 4) 클릭 이벤트 연결
 ![image](https://user-images.githubusercontent.com/97229292/161433157-da9c2f57-2ada-4fc8-9b92-5eb8a4872c1c.png)
 

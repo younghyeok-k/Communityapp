@@ -24,9 +24,16 @@ implementation 'com.google.android.material:material:1.0.0' // NavigationView
 ![image](https://user-images.githubusercontent.com/97229292/161433045-015c8c05-26fa-4f44-af59-4e0b824ba234.png)
 
 ### 3) onNavigationItemSeleted 
-클릭시 이벤트 처리
+#### 클릭시 이벤트 처리
 ![image](https://user-images.githubusercontent.com/97229292/161433117-9f11908e-98b4-4de7-96c1-658aeade6b6c.png)
 
 ### 4) 클릭 이벤트 연결
 ![image](https://user-images.githubusercontent.com/97229292/161433157-da9c2f57-2ada-4fc8-9b92-5eb8a4872c1c.png)
+
+### 5) onBackPressed
+```
+ 네비게이션 드로어가 열려 있을 때 뒤로가기 버튼을 누르면 네비게이션을 닫고,
+ 닫혀 있다면 기존 뒤로가기 버튼으로 작동한다
+ ```
+ ![image](https://user-images.githubusercontent.com/97229292/161433336-5f097641-6e38-41b6-9d75-718fc86e5e2d.png)
 

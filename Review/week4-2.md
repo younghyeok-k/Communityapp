@@ -3,4 +3,4 @@
 
 ## Navigation Drawer
 ------------
-![image](https://user-images.githubusercontent.com/97229292/161432642-55178c6e-c749-45ce-b1b2-6e0569e7f0a8.png)
+![screen-nav](https://user-images.githubusercontent.com/97229292/161432855-dadac21f-ace5-497d-86e0-8a87c92df825.gif)

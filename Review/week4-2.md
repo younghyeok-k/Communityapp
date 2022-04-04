@@ -37,5 +37,6 @@ implementation 'com.google.android.material:material:1.0.0' // NavigationView
  네비게이션 드로어가 열려 있을 때 뒤로가기 버튼을 누르면 네비게이션을 닫고,
  닫혀 있다면 기존 뒤로가기 버튼으로 작동한다
  ```
- ![image](https://user-images.githubusercontent.com/97229292/161433336-5f097641-6e38-41b6-9d75-718fc86e5e2d.png)
+ ![image](https://user-images.githubusercontent.com/97229292/161433336-5f097641-6e38-41b6-9d75-718fc86e5e2d.png)![로그아웃](https://user-images.githubusercontent.com/97229292/161529233-e16737c3-a062-421d-a027-e7fc0caa04a5.gif)
+
 

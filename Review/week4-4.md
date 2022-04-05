@@ -46,4 +46,5 @@ Listview 를 만들어서 댓글의 item_layout 을 따로만들어 Adapter 를 
 
 ## 실행결과
 ---------------
+![comment](https://user-images.githubusercontent.com/97229292/161802450-a7fa0277-e68d-4224-9df7-a3e38f7c29e7.gif)
 

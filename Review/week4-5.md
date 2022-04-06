@@ -1,4 +1,4 @@
-## 중간정리 2
+# 중간정리 2
 
 
 ## 북마크 삭제( [3주차-1](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week3-1.md)   )
@@ -11,7 +11,7 @@
 ![게시판글쓰기test1](https://user-images.githubusercontent.com/97229292/160430059-73e486fd-6770-4a1d-85de-f3e35290150a.gif)
 
 
-## 게시판 만들기-글읽어오기 ([3주차-3](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week3-3.md)  
+## 게시판 만들기-글읽어오기 ([3주차-3](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week3-3.md)  )
 ----------------
 ![게시판글쓰기test2](https://user-images.githubusercontent.com/97229292/160635592-94148bbf-7320-4995-8f61-becc57f54e81.gif)
 

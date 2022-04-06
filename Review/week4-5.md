@@ -3,7 +3,8 @@
 
 # 북마크 삭제( [3주차-1](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week3-1.md)   )
 ----------------------
-![북마크 삭제(my)](https://user-images.githubusercontent.com/97229292/161567110-2cdcf963-c8c0-42ec-ad3a-be686eecb925.gif)
+![mybookmark삭제](https://user-images.githubusercontent.com/97229292/162008852-b329d23e-4c97-4054-a389-9674b2dbb243.gif)
+
 
 
 # 게시판 만들기-글쓰기 ( [3주차-2](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week3-2.md)  )

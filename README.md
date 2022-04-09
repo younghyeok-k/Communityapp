@@ -20,7 +20,7 @@
 |  [4주차-3](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week4-3.md)   |게시판 만들기 (내가쓴 게시물만 수정/삭제)|
 |  [4주차-4](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week4-4.md)   |게시판 만들기 (게시물 댓글만들기)|
 |  [3,4 주차 정리](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week4-5.md)   |중간  정리2|
-|  [5주차-1](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week5-1.md)   | 홈만들기|
+|  [5주차-1](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week5-1.md)   | 레이아웃 정리|
 
 
 

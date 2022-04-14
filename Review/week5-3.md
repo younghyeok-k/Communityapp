@@ -38,3 +38,6 @@ onPause에서 autoScrollStop을 다른페이지로 떠나있는 동안 스크롤
 
 이렇게 라이프 사이클에 맞게 적절히 시작과 정지를 해주어야 한다.
 ```
+## 결과
+![banner2](https://user-images.githubusercontent.com/97229292/163377438-24b5ffb8-d243-498d-9076-fc7d68159d93.gif)
+

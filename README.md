@@ -22,6 +22,7 @@
 |  [3,4 주차 정리](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week4-5.md)   |중간  정리2|
 |  [5주차-1](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week5-1.md)   | 레이아웃 정리|
 |  [5주차-2](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week5-2.md)   | 홈 레이아웃 (배너 만들기-1)|
+|  [5주차-3](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week5-3.md)   | 홈 레이아웃 (배너 만들기-2)|
 
 
 

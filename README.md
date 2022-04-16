@@ -25,6 +25,8 @@
 |  [5주차-3](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week5-3.md)   | 홈 레이아웃 (배너 만들기-2)|
 |  [6주차-1](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week6-1.md)   | 홈 레이아웃 (메뉴,게시물 추가하기)|
 |  [6주차-2](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week6-2.md)   | 홈 레이아웃 (콘텐츠이미지 추가하기)|
+|  [6주차-3](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week6-3.md)   | 내정보 탭 만들기|
+
 
 
 

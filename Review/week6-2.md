@@ -14,14 +14,13 @@
 ### HomeFragment.kt
 #### 카테고리에있는 모든 콘텐츠를 가져오려고한다
 
-
 ![image](https://user-images.githubusercontent.com/97229292/163676972-6882750c-f8f5-40d1-8c88-684a3f25dd21.png)
-
+![image](https://user-images.githubusercontent.com/97229292/163677088-5f37fab8-caef-4b9a-97ca-5b51cba19f16.png)
 
 #### HomeboardRVAdapter.kt 
 ![image](https://user-images.githubusercontent.com/97229292/163677058-2997f724-1578-49fa-90df-5658ff13be81.png)
 
-![image](https://user-images.githubusercontent.com/97229292/163677088-5f37fab8-caef-4b9a-97ca-5b51cba19f16.png)
+
 
 
 ```

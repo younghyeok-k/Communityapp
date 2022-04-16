@@ -14,7 +14,7 @@
 ### HomeFragment.kt
 #### 카테고리에있는 모든 콘텐츠를 가져오려고한다
 
-####  getCategoryData()
+
 ![image](https://user-images.githubusercontent.com/97229292/163676972-6882750c-f8f5-40d1-8c88-684a3f25dd21.png)
 
 

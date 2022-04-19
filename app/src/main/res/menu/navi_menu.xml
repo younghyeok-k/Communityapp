@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/test_navi1"
+            android:icon="@drawable/ic_baseline_filter_24"
+            android:title="test1" />
+        <item
+            android:id="@+id/test_navi2"
+            android:icon="@drawable/ic_baseline_filter_24"
+            android:title="test2" />
+        <item
+            android:id="@+id/test_navi3"
+            android:icon="@drawable/ic_baseline_filter_24"
+            android:title="test3" />
+
+        <item
+            android:id="@+id/test_navi4"
+            android:icon="@drawable/ic_baseline_filter_24"
+            android:title="test4" />
+
+        <item
+            android:id="@+id/test_navi5"
+            android:icon="@drawable/ic_baseline_filter_24"
+            android:title="test5" />
+    </group>
+</menu>

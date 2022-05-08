@@ -34,7 +34,7 @@ class BoardinsideActivity : AppCompatActivity() {
 
     private lateinit var key: String
 
-    private lateinit var commentkey:String
+    private lateinit var commentkey: String
     private val commentkeyList = mutableListOf<String>()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -49,9 +49,9 @@ class BoardinsideActivity : AppCompatActivity() {
             showDialog()
 
         }
-binding.backpress.setOnClickListener{
-    super.onBackPressed()
-}
+        binding.backpress.setOnClickListener {
+            super.onBackPressed()
+        }
 
         key = intent.getStringExtra("key").toString()
 
@@ -71,7 +71,7 @@ binding.backpress.setOnClickListener{
         binding.commentRv.adapter = commentAdapter
 
 
-            getCommentData(key)
+        getCommentData(key)
 
 
     }
@@ -153,7 +153,7 @@ binding.backpress.setOnClickListener{
 
 
     private fun getImageData(key: String) {
-        val storageReference = Firebase.storage.reference.child(key + ".png")
+        val storageReference = Firebase.storage.reference.child("boardimage/"+key + ".png")
 
         // ImageView in your Activity
         val imageViewFB = binding.getimageArea

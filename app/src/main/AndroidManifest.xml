@@ -12,7 +12,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Communityapp">
-
+        <activity
+            android:name=".auth.AnmoyschangeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".auth.PasswordChangeActivity"
+            android:exported="false" />
         <activity
             android:name=".board.BoardEditActivity"
             android:exported="false" />

@@ -1,101 +1,191 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".fragments.MyInfoFragment">
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- TODO: Update blank fragment layout -->
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:context=".fragments.MyInfoFragment">
 
-        <LinearLayout
+        <!-- TODO: Update blank fragment layout -->
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="3dp"
-            app:layout_constraintBottom_toTopOf="@+id/linearLayout4">
+            android:layout_height="match_parent">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-              />
+            <!--        <LinearLayout-->
+            <!--            android:id="@+id/linearLayout10"-->
+            <!--            android:layout_width="match_parent"-->
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-              />
+            <!--            android:layout_height="0.5dp"-->
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-               />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="#000033" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/linearLayout4"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:background="@color/white"
-            app:layout_constraintBottom_toBottomOf="parent">
+            <!--            android:background="#999999"-->
+            <!--            app:layout_constraintBottom_toTopOf="@+id/passwdchange"-->
+            <!--            app:layout_constraintEnd_toEndOf="parent"-->
+            <!--            app:layout_constraintStart_toStartOf="parent" />-->
+            <!--            android:visibility="invisible"-->
 
             <ImageView
-                android:id="@+id/hometap"
-                android:layout_width="match_parent"
+                android:id="@+id/profile_img"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/infouser"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/user_email"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="40dp"
+                android:text="user"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                app:layout_constraintStart_toEndOf="@+id/profile_img"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!--            <TextView-->
+<!--                android:id="@+id/passwdchange"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="60dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:text="비밀번호 변경"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="30dp"-->
+<!--                android:visibility="visible"-->
+<!--            " />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/anojoin"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="60dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:text="익명사용자 회원가입"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="30dp"-->
+<!--                android:visibility="invisible" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+android:layout_marginLeft="30dp"
+                android:layout_marginTop="108dp"
+                android:text="프로필관리"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/profile_img" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="16dp"
+
+                android:layout_marginBottom="3dp"
+                android:src="@drawable/ic_baseline_login_24"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/logout"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="14dp"
+
+                android:gravity="center"
+
+                android:text="Log out"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+                app:layout_constraintEnd_toStartOf="@+id/imageView4" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout8"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout4">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#000033" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
                 android:background="@color/white"
-                android:src="@drawable/bottom_hometap" />
+                app:layout_constraintBottom_toBottomOf="parent">
 
-            <ImageView
-                android:id="@+id/tiptap"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:src="@drawable/bottom_goodtip" />
+                <ImageView
+                    android:id="@+id/hometap"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:src="@drawable/bottom_hometap" />
 
-            <ImageView
-                android:id="@+id/talktap"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:src="@drawable/bottom_talk" />
+                <ImageView
+                    android:id="@+id/tiptap"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/bottom_goodtip" />
 
-            <ImageView
-                android:id="@+id/bookmarktap"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:src="@drawable/bottom_bookmark" />
+                <ImageView
+                    android:id="@+id/talktap"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/bottom_talk" />
 
-            <ImageView
-                android:id="@+id/info"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:src="@drawable/bottom_info" />
+                <ImageView
+                    android:id="@+id/bookmarktap"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/bottom_bookmark" />
+
+                <ImageView
+                    android:id="@+id/info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/bottom_info" />
 
 
-        </LinearLayout>
+            </LinearLayout>
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
-</FrameLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
 
 </layout>

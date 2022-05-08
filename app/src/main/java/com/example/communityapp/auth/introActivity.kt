@@ -9,6 +9,7 @@ import com.example.communityapp.MainActivity
 import com.example.communityapp.R
 import com.example.communityapp.databinding.ActivityIntroBinding
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.UserProfileChangeRequest
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
@@ -40,7 +41,6 @@ class introActivity : AppCompatActivity() {
             auth.signInAnonymously()
                 .addOnCompleteListener(this) { task ->
                     if (task.isSuccessful) {
-
                         Toast.makeText(this, "로그인성공", Toast.LENGTH_SHORT).show()
                         val intent = Intent(this, MainActivity::class.java)
                         intent.flags =Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK

@@ -4,6 +4,7 @@ import android.content.Intent
 import android.media.Image
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.MenuItem
 import android.widget.Button
 import android.widget.ImageView
@@ -14,6 +15,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.drawerlayout.widget.DrawerLayout
 import com.example.communityapp.auth.introActivity
 import com.example.communityapp.databinding.ActivityMainBinding
+import com.example.communityapp.utills.FBauth
 import com.google.android.material.navigation.NavigationView
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
@@ -34,6 +36,11 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         val nav_header_view=naviview.getHeaderView(0)
         val close =nav_header_view.findViewById<ImageView>(R.id.close)
         auth = Firebase.auth
+        val username=nav_header_view.findViewById<TextView>(R.id.username_header)
+
+//이메일 가져오기
+        username.setText(FBauth.getemail())
+        Log.d("email:",auth.currentUser?.email.toString())
 
         menu_navi.setOnClickListener {
             drawer_navi.openDrawer(GravityCompat.START)

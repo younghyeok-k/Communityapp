@@ -80,7 +80,7 @@ class BoardwriteActivity : AppCompatActivity() {
 
         val storage = Firebase.storage
         val storageRef = storage.reference
-        val mountainsRef = storageRef.child(key + ".png")
+        val mountainsRef = storageRef.child("boardimage/"+key + ".png")
 
 
         val imageView = binding.imageArea

@@ -6,9 +6,7 @@ import com.google.firebase.ktx.Firebase
 class FBRef {
 
 
-
-
-    companion object{
+    companion object {
         private val database = Firebase.database
 
 
@@ -21,10 +19,10 @@ class FBRef {
         val category7 = database.getReference("contents7")
         val category8 = database.getReference("contents8")
 
-        val bookmarkRef=database.getReference("bookmark_list")
-        val boardRef=database.getReference("board")
-
-        val commnetRef=database.getReference("comment")
+        val bookmarkRef = database.getReference("bookmark_list")
+        val boardRef = database.getReference("board")
+        val profile_img = database.getReference("profile_img")
+        val commnetRef = database.getReference("comment")
 
     }
 

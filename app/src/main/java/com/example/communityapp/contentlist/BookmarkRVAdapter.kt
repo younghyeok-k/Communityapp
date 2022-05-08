@@ -70,7 +70,7 @@ val bookmarkIdList:MutableList<String>) : RecyclerView.Adapter<BookmarkRVAdapter
 
                 bookmarkArea.setImageResource(R.drawable.bookmark_color)
 
-
+//test
 
             bookmarkArea.setOnClickListener{
                 Toast.makeText(context, key, Toast.LENGTH_SHORT)

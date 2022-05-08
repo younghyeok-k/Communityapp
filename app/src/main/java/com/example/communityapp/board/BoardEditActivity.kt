@@ -103,7 +103,7 @@ class BoardEditActivity : AppCompatActivity() {
     }
 
     private fun getImageData(key: String) {
-        val storageReference = Firebase.storage.reference.child(key + ".png")
+        val storageReference = Firebase.storage.reference.child("boardimage/"+key + ".png")
 
         // ImageView in your Activity
         val imageViewFB = binding.imageArea
@@ -125,7 +125,7 @@ class BoardEditActivity : AppCompatActivity() {
 
         val storage = Firebase.storage
         val storageRef = storage.reference
-        val mountainsRef = storageRef.child(key + ".png")
+        val mountainsRef = storageRef.child("boardimage/"+key + ".png")
 
 
         val imageView = binding.imageArea

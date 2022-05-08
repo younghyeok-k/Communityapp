@@ -23,7 +23,7 @@
 
     <TextView
 
-        android:id="@+id/textView"
+        android:id="@+id/username_header"
         android:layout_width="80dp"
         android:layout_height="50dp"
         android:textSize="25sp"

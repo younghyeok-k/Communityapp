@@ -56,29 +56,38 @@ class MyInfoFragment : Fragment() {
         savedInstanceState: Bundle?
 
     ): View? {
+        auth = FirebaseAuth.getInstance();
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_myinfo, container, false)
 
 
-        binding.userEmail.setText(FBauth.getemail())
 //        binding.passwdchange.setOnClickListener {
 //            showDialog()
 //
 //        }
+        if (FBauth.getemail().isEmpty()) {
+            binding.userEmail.setText("익명사용자")
+        } else {
+            binding.userEmail.setText(FBauth.getemail())
+
+        }
+
 
         key = FBauth.getemail().toString()
 
         getImageData(key)
 
 
-        binding.profileImg.setOnClickListener{
+        binding.profileImg.setOnClickListener {
 
-            val gallery = Intent(Intent.ACTION_PICK, MediaStore.Images.Media.INTERNAL_CONTENT_URI)
-            startActivityForResult(gallery, 100)
-
+            if(!FBauth.getemail().isEmpty()) {
+                val gallery =
+                    Intent(Intent.ACTION_PICK, MediaStore.Images.Media.INTERNAL_CONTENT_URI)
+                startActivityForResult(gallery, 100)
+            }else{
+                Toast.makeText(context,"익명사용자입니다",Toast.LENGTH_SHORT)
+            }
 
         }
-
-
 
         binding.hometap.setOnClickListener {
             it.findNavController().navigate(R.id.action_myinfo_to_homeFragment)
@@ -121,12 +130,13 @@ class MyInfoFragment : Fragment() {
 
 
     }
+
     private fun imageupload(key: String) {
 
 
         val storage = Firebase.storage
         val storageRef = storage.reference
-        val mountainsRef = storageRef.child("userimage/"+key + ".png")
+        val mountainsRef = storageRef.child("userimage/" + key + ".png")
 
 
         val imageView = binding.profileImg
@@ -148,7 +158,7 @@ class MyInfoFragment : Fragment() {
     }
 
     private fun getImageData(key: String) {
-        val storageReference = Firebase.storage.reference.child("userimage/"+key + ".png")
+        val storageReference = Firebase.storage.reference.child("userimage/" + key + ".png")
 
         // ImageView in your Activity
         val imageViewFB = binding.profileImg

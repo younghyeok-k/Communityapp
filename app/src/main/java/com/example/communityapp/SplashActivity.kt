@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.util.Log
-import com.example.communityapp.auth.introActivity
+import com.example.communityapp.auth.LoginActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
@@ -22,7 +22,7 @@ class SplashActivity : AppCompatActivity() {
         if(auth.currentUser?.uid==null){
             Log.d("splashActivity","null")
             Handler().postDelayed({
-                startActivity(Intent(this,introActivity::class.java))
+                startActivity(Intent(this,LoginActivity::class.java))
                 finish()
             },3000)
         }else{

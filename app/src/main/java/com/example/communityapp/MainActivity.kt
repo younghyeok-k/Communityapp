@@ -1,20 +1,16 @@
 package com.example.communityapp
 //startday03-03
 import android.content.Intent
-import android.media.Image
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.MenuItem
-import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.core.view.GravityCompat
-import androidx.databinding.DataBindingUtil
 import androidx.drawerlayout.widget.DrawerLayout
-import com.example.communityapp.auth.introActivity
-import com.example.communityapp.databinding.ActivityMainBinding
+import com.example.communityapp.auth.LoginActivity
 import com.example.communityapp.utills.FBauth
 import com.google.android.material.navigation.NavigationView
 import com.google.firebase.auth.FirebaseAuth
@@ -51,7 +47,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             Toast.makeText(this, "로그아웃", Toast.LENGTH_SHORT).show()
 
             auth.signOut()
-            val intent = Intent(this, introActivity::class.java)
+            val intent = Intent(this, LoginActivity::class.java)
             intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
             startActivity(intent)
         }

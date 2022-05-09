@@ -21,6 +21,7 @@
 
 ### 비밀번호찾기
 -----------------------------
+#### 다이얼로그를 이용하여 사용자가 가입한 이메일로 비밀번호를 재설정할수있도록 할것이다
 https://gist.github.com/rlarla245/8efe503562dddc91a62478b740ff6630
 ```
 Firebase 비밀번호 찾기
@@ -44,9 +45,13 @@ fun findPassword() {
 4. 마찬가지로 템플릿 변경을 통해 내용을 수정할 수 있습니다.
 * 스팸 리스트가 적기 때문에 메시지도 수정 가능합니다.
 ```
+### LoginActivity
 ![image](https://user-images.githubusercontent.com/97229292/167446366-5a48fc75-20ae-44ed-93c3-20d7e14b07c9.png)
+### 비밀번호 재설정 UI
 ![image](https://user-images.githubusercontent.com/97229292/167446498-c39ab48d-cf08-470e-bc21-7b71ae2143ec.png)
+### 이메일을 넣었을때 메일
 ![image](https://user-images.githubusercontent.com/97229292/167446901-97d9bcb9-c09d-4b0b-8158-92d2fafaff06.png)
+### 비밀번호 바꾸는 페이지
 ![image](https://user-images.githubusercontent.com/97229292/167446955-0fb5c474-4945-4165-b40b-9fe7229c65bc.png)
 
 

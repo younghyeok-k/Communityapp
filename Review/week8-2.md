@@ -47,10 +47,12 @@ class ListAdapter(val itemList: ArrayList<ListItem>): RecyclerView.Adapter<ListA
  commentkeylist를 만들어 getCommentData()에서 추가하여 삭제하였다
 ```
 ![image](https://user-images.githubusercontent.com/97229292/167653041-b2eeeafd-50f3-4f8c-810d-44e255637958.png)
-![image](https://user-images.githubusercontent.com/97229292/167653149-64903961-8d85-4150-ad2f-5271531dc64f.png)
+![image](https://user-images.githubusercontent.com/97229292/167658261-2c71810f-db13-4e2b-b767-48e9d67a3725.png)
 
-### 액티비티에서 리시트뷰 처리
+
+### 액티비티에서 리스트뷰 처리
 ![image](https://user-images.githubusercontent.com/97229292/167653231-20efc968-f4d4-48a4-89a3-7fa4359d732f.png)
 
+![comment_delete](https://user-images.githubusercontent.com/97229292/167658804-c4d6fad1-5810-4701-8f84-fd7990acf20c.gif)
 
 

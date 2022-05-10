@@ -7,7 +7,8 @@
 
 ### 2)내가쓴 댓글만 삭제표시가 보이도록
 ![image](https://user-images.githubusercontent.com/97229292/167651047-90ee4b37-d8c0-4f68-beae-d259cb334d9e.png)
-![image](https://user-images.githubusercontent.com/97229292/167651291-077c5ead-9efc-4180-ad0b-7a85679d0c0a.png)
+![image](https://user-images.githubusercontent.com/97229292/167658001-a2c132cc-86c5-45a6-be7a-b4b72abfcfc5.png)
+
 
 
 ### 3)

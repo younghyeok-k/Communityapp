@@ -64,7 +64,7 @@ class MyInfoFragment : Fragment() {
 //            showDialog()
 //
 //        }
-        if (FBauth.getemail().isEmpty()) {
+        if (FBauth.getemail().isEmpty()||FBauth.getemail().equals("null")) {
             binding.userEmail.setText("익명사용자")
         } else {
             binding.userEmail.setText(FBauth.getemail())
@@ -79,7 +79,7 @@ class MyInfoFragment : Fragment() {
 
         binding.profileImg.setOnClickListener {
 
-            if(!FBauth.getemail().isEmpty()) {
+            if(!FBauth.getemail().isEmpty()||!FBauth.getemail().equals("null")) {
                 val gallery =
                     Intent(Intent.ACTION_PICK, MediaStore.Images.Media.INTERNAL_CONTENT_URI)
                 startActivityForResult(gallery, 100)

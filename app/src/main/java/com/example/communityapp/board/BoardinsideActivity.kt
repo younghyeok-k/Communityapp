@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
@@ -34,8 +35,8 @@ class BoardinsideActivity : AppCompatActivity() {
 
     private lateinit var key: String
 
-    private lateinit var commentkey: String
-    private val commentkeyList = mutableListOf<String>()
+    private val commentkeylist = mutableListOf<String>()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_boardinside)
@@ -64,6 +65,7 @@ class BoardinsideActivity : AppCompatActivity() {
         binding.commentbtn.setOnClickListener {
 
             insertComment(key)
+            binding.commentArea.text.clear()
 
         }
 
@@ -71,6 +73,14 @@ class BoardinsideActivity : AppCompatActivity() {
         binding.commentRv.adapter = commentAdapter
 
 
+        commentAdapter.setItemClickListener(object: CommentLVAdapter.OnItemClickListener{
+            override fun onClick(v: View, position: Int) {
+
+                FBRef.commnetRef.child(key).child(commentkeylist[position]).removeValue()
+                Toast.makeText(this@BoardinsideActivity,"댓글 삭제 완료", Toast.LENGTH_SHORT).show()
+
+            }
+        })
         getCommentData(key)
 
 
@@ -80,12 +90,14 @@ class BoardinsideActivity : AppCompatActivity() {
         val postListener = object : ValueEventListener {
             override fun onDataChange(dataSnapshot: DataSnapshot) {
                 commentDataList.clear()
+                commentkeylist.clear()
                 for (dataModel in dataSnapshot.children) {
                     val item = dataModel.getValue(CommentModel::class.java)
                     commentDataList.add(item!!)
-
+                    commentkeylist.add(dataModel.key.toString())
                 }
                 commentDataList.reverse()
+                commentkeylist.reverse()
                 commentAdapter.notifyDataSetChanged()
 
             }
@@ -102,7 +114,13 @@ class BoardinsideActivity : AppCompatActivity() {
 
 
     fun insertComment(key: String) {
+        val email:String
 
+        if (FBauth.getemail().equals("null")||FBauth.getemail().isEmpty()){
+            email="익명"
+        }else {
+            email = FBauth.getemail()
+        }
 
         FBRef
             .commnetRef
@@ -112,7 +130,9 @@ class BoardinsideActivity : AppCompatActivity() {
                 CommentModel(
                     binding.commentArea.text.toString(),
                     FBauth.getTime(),
-                    FBauth.getUid()
+                    FBauth.getUid(),
+                    email
+
                 )
             )
         Toast.makeText(this, "댓글 입력 완료", Toast.LENGTH_SHORT).show()
@@ -185,6 +205,7 @@ class BoardinsideActivity : AppCompatActivity() {
                     binding.titleArea.text = datamodel!!.title
                     binding.contentArea.text = datamodel!!.content
                     binding.timeArea.text = datamodel!!.time
+                    binding.userEmail.text=datamodel!!.email
                     val myUid = FBauth.getUid()
                     val writerUid = datamodel.uid
                     if (myUid.equals(writerUid)) {

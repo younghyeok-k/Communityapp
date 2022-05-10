@@ -62,6 +62,7 @@ class TalkFragment : Fragment() {
             //두번쨰 방법
             val intent = Intent(context, BoardinsideActivity::class.java)
             intent.putExtra("key",boardkeyList[position])
+
             startActivity(intent)
 
 

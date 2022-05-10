@@ -29,7 +29,6 @@ class BoardwriteActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_boardwrite)
 
-
         binding = DataBindingUtil.setContentView(this, R.layout.activity_boardwrite)
 
         binding.writeBtn.setOnClickListener {
@@ -37,7 +36,13 @@ class BoardwriteActivity : AppCompatActivity() {
             val content = binding.contentArea.text.toString()
             val uid = FBauth.getUid()
             val time = FBauth.getTime()
+            val email:String
 
+            if (FBauth.getemail().equals("null")||FBauth.getemail().isEmpty()){
+                 email="익명"
+            }else {
+               email = FBauth.getemail()
+            }
             val key = FBRef.boardRef.push().key.toString()
 
 //             파이어베이스 storage 에 이미지를 저장하고 싶습니다
@@ -50,7 +55,7 @@ class BoardwriteActivity : AppCompatActivity() {
             Log.d(TAG, title)
             FBRef.boardRef
                 .child(key)
-                .setValue(BoardModel(title, content, uid, time))
+                .setValue(BoardModel(title, content, uid, time,email))
 
             //이미지 클릭하면 어두운거 안나오게 (기본이미지 확인방법 다시)
             if (isimageUpload == true) {

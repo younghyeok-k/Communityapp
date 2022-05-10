@@ -5,5 +5,7 @@ data class CommentModel(
 
     val commentTitle: String = "",
     val commnetCreatedTime: String = "",
-    val ukey:String =""
+    val ukey:String ="",
+    val email:String="",
+
 )

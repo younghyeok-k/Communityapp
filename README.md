@@ -28,7 +28,7 @@
 |  [7주차-1](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week6-3.md)   | 내정보 탭 만들기(비밀번호 변경)|
 |  [7주차-2](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week7-2.md)   |내정보 프로필(프로필 이미지설정)  |
 |  [8주차-1](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week8-1.md)   |로그인UI 변경 /비밀번호 재설정  |
-|  [8주차-2](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week8-2.md)   |로그인UI 변경 /비밀번호 재설정  |
+|  [8주차-2](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week8-2.md)   |댓글삭제  |
 |  [8주차-3](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week8-3.md)   |회원탈퇴  |
 
 

@@ -1,6 +1,6 @@
 ### 중간정리
 
-## 5주차( [5주차-2](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week5-2.md, [5주차-3](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week5-3.md)
+## 5주차 [5주차-2](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week5-2.md, [5주차-3](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week5-3.md)
 --------------------------
 ### 홈화면 배너
 #### 1) 배너는 사용자가 클릭하지 않으면 넘어가야하고 

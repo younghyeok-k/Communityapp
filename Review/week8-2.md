@@ -53,6 +53,7 @@ class ListAdapter(val itemList: ArrayList<ListItem>): RecyclerView.Adapter<ListA
 ### 액티비티에서 리스트뷰 처리
 ![image](https://user-images.githubusercontent.com/97229292/167653231-20efc968-f4d4-48a4-89a3-7fa4359d732f.png)
 
+### 결과
 ![comment_delete](https://user-images.githubusercontent.com/97229292/167658804-c4d6fad1-5810-4701-8f84-fd7990acf20c.gif)
 
 

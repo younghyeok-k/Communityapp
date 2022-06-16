@@ -30,7 +30,7 @@
 |  [8주차-1](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week8-1.md)   |로그인UI 변경 /비밀번호 재설정  |
 |  [8주차-2](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week8-2.md)   |내가쓴 댓글만 삭제가능  |
 |  [5,6,7,8 주차 정리](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week8-4.md)   |중간 정리 3  |
-|  [9주차-1](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week8-3.md)   |내가쓴 게시물 가져오기  |
+
 
 
 

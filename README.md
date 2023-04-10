@@ -1,7 +1,7 @@
 # Communityapp
 
 ### Project
-[Tistory 참고](https://younghyeok.tistory.com/category/Android%28Kotlin%29/Android%28Kotlin%29-%20Communityapp)
+[Tistory 참고](https://younghyeok.tistory.com/category/Android%28Kotlin%29/Communityapp)
 | n 주차 |내용  | 
 |---------|---------|
 |  [1주차-1](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week1.md)   | 프로젝트 선정/계획  | 
